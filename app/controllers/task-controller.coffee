@@ -13,7 +13,7 @@ module.exports = class TaskController extends Chaplin.Controller
 		@taskCollection = new taskCollection
 
 	index: (params) ->
-		@view = new TaskListView {
+		@listView = new TaskListView {
 			collection: @taskCollection,
 			region: 'main'
 		}
@@ -29,5 +29,9 @@ module.exports = class TaskController extends Chaplin.Controller
 	edit: (params) ->
 
 	destroy: (id) ->
-		console.log arguments
-
+#		TODO: refactor this, make render for listView
+		@taskCollection.localStorage.destroy(id)
+		@listView = new TaskListView {
+			collection: @taskCollection,
+			region: 'main'
+		}

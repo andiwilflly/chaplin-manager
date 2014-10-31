@@ -18,3 +18,6 @@ module.exports = class TaskNewView extends View
 	saveModel: ->
 		@collection.localStorage.create(@model)
 #		TODO: make redirection to 'task#show'
+
+	test: ->
+		console.log 'test'
