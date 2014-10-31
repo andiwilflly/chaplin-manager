@@ -6,4 +6,4 @@ module.exports = class MainLayaut extends View
 	id: 'main-layaut'
 	regions:
 		main: '#main-container'
-	template: require './layauts/main-layaut'
+	template: require 'views/templates/main-layaut'
