@@ -1,3 +1,4 @@
+<h3><a href="{{ url "task#index" id}}">Task list</a></h3>
 <form id="task-new-form" method="POST">
 	<label for="task-name">Task name</label>
 	<br />
@@ -12,11 +13,11 @@
 	<label for="task-status">Task status</label>
 	<br />
 	<select name="status" id="task-status">
-		<option value="open">open</option>
-		<option value="active">active</option>
+		<option value="new">new</option>
 		<option value="done">done</option>
+		<option value="inProgress">in progress</option>
 	</select>
 	<br />
 	<br />
-	<input type="submit" value="Create"/>
+	<input class="btn" type="submit" value="Create"/>
 </form>

@@ -46,4 +46,11 @@ module.exports = class TaskController extends Chaplin.Controller
 	destroy: (id) ->
 		@taskCollection.localStorage.destroy(id)
 		@taskCollection.remove(id)
+#		TODO: need redirection
+		@TaskListView.rednerView()
+
+#	Drop localStorage
+	drop: ->
+		@taskCollection.clearStorage()
+#		TODO: need redirection
 		@TaskListView.rednerView()

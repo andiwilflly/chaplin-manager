@@ -1,4 +1,5 @@
-<form id="task-update-form">
+<h3><a href="{{ url "task#index" id}}">Task list</a></h3>
+<form id="task-update-form" class="task {{ status }}">
 	<label for="task-name">Task name</label>
 	<br />
 	<input id="task-name" type="text" name="name" value="{{ name }}" />
@@ -12,11 +13,11 @@
 	<label for="task-status">Task status</label>
 	<br />
 	<select name="status" id="task-status">
-		<option value="open">open</option>
-		<option value="active">active</option>
+		<option value="new">new</option>
 		<option value="done">done</option>
+		<option value="inProgress">in progress</option>
 	</select>
 	<br />
 	<br />
-	<input type="submit" value="Update"/>
+	<input class="btn" type="submit" value="Update"/>
 </form>

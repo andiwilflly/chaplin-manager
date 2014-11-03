@@ -1,8 +1,7 @@
-<li>
-	<hr />
+<li class="task {{status}}">
 	<a href="{{ url "task#show" id}}"><b>{{name}}</b></a>
 	<i>[{{status}}]</i>
 	<p>desc: <i>{{description}}</i></p>
-	<a href="{{ url "task#edit" id}}">Edit</a>
-	<a href="{{ url "task#destroy" id}}">Destroy</a>
+	<a class="btn" href="{{ url "task#edit" id}}">Edit</a>
+	<a class="btn" href="{{ url "task#destroy" id}}">Destroy</a>
 </li>

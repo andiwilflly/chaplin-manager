@@ -1,11 +1,13 @@
-<h2>{{name}}</h2>
-<i>[{{status}}]</i>
-<br />
-<br />
-<p><i>description:</i> {{description}}</p>
+<h3><a href="{{ url "task#index" id}}">Task list</a></h3>
+<div class="task {{ status }}">
+	<h2>{{name}}</h2>
+	<i>[{{status}}]</i>
+	<br />
+	<br />
+	<p><i>description:</i> {{description}}</p>
 
-<br />
-<br />
-<!-- TODO: Add edit button -->
-<a href="{{ url "task#edit" id}}">Edit</a>
-<a href="{{ url "task#destroy" id}}">Destroy</a>
+	<br />
+	<br />
+	<a class="btn" href="{{ url "task#edit" id}}">Edit</a>
+	<a class="btn" href="{{ url "task#destroy" id}}">Destroy</a>
+</div>

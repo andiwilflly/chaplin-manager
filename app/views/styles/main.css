@@ -1,0 +1,63 @@
+.main-container {
+	background: #c0c0c0;
+	color: #3b3b3b;
+	padding: 20px;
+	width: 600px;
+	margin: 100px auto;
+}
+
+a {
+	color: #1a1e80;
+	text-decoration: none;
+}
+a:hover {
+	color: #2226a0;
+	text-decoration: underline;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.btn {
+	background: #c04e42;
+	padding: 5px 10px;
+	color: white !important;
+	display: inline-block;
+	border: none;
+}
+.btn:hover {
+	text-decoration: none;
+	color: white;
+	background: #a24040;
+}
+.add-new-btn {
+	padding: 10px 15px;
+	margin-top: 20px;
+}
+
+/* Task */
+.task {
+	background: whitesmoke;
+	padding: 10px;
+	list-style: none;
+	margin: 10px 0;
+}
+.task p {
+	margin: 10px 0;
+}
+
+.task i {
+	font-size: 12px;
+}
+
+.task.done {
+	background: #80b467;
+}
+.task.new {
+	background: #a1d1ff;
+}
+.task.inProgress {
+	background: #ffc56a;
+}

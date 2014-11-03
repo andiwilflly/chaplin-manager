@@ -5,3 +5,4 @@ module.exports = (match) ->
   match 'new',  		'task#new'
   match 'edit/:id',  	'task#edit'
   match 'destroy/:id',  'task#destroy'
+  match 'drop', 		'task#drop'

@@ -6,4 +6,4 @@ module.exports = class Task extends Chaplin.Model
 	defaults:
 		"name":  	 	   "task default title"
 		"description":     "task default description"
-		"status":     	   "open"
+		"status":     	   "new"
