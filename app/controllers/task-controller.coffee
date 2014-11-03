@@ -11,14 +11,14 @@ module.exports = class TaskController extends Chaplin.Controller
 		# Site layaut declares “main” region.
 		@compose 'site', @layaut
 		@taskCollection = new taskCollection
-
-	index: (params) ->
-		@listView = new TaskListView {
+		@taskCollection.fetch()
+		@TaskListView = new TaskListView {
 			collection: @taskCollection,
 			region: 'main'
 		}
 
-	show: (params) ->
+	index: (params) ->
+		@TaskListView.rednerView()
 
 	new: (params) ->
 		@view = new TaskNewView {
@@ -29,9 +29,6 @@ module.exports = class TaskController extends Chaplin.Controller
 	edit: (params) ->
 
 	destroy: (id) ->
-#		TODO: refactor this, make render for listView
 		@taskCollection.localStorage.destroy(id)
-		@listView = new TaskListView {
-			collection: @taskCollection,
-			region: 'main'
-		}
+		@taskCollection.remove(id)
+		@TaskListView.rednerView()

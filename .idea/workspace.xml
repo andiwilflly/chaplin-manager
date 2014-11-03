@@ -23,37 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="task-controller.coffee" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="task-controller.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/task-controller.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="830" selection-end="830" vertical-scroll-proportion="-25.16" vertical-offset="0" max-vertical-offset="731">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task.hbs" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/templates/task.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="40" selection-start="125" selection-end="125" vertical-scroll-proportion="0.09309967" vertical-offset="0" max-vertical-offset="913">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task-new-view.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/task-new-view.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="17" selection-start="477" selection-end="477" vertical-scroll-proportion="-11.56" vertical-offset="0" max-vertical-offset="476">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task-view.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/task-view.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="-5.44" vertical-offset="0" max-vertical-offset="272">
+            <state line="22" column="20" selection-start="568" selection-end="568" vertical-scroll-proportion="0.4091904" vertical-offset="0" max-vertical-offset="914">
               <folding />
             </state>
           </provider>
@@ -82,16 +55,16 @@
         <option value="$PROJECT_DIR$/app/views/layauts/main-layaut.hbs" />
         <option value="$PROJECT_DIR$/app/views/layauts/main-layaut.coffee" />
         <option value="$PROJECT_DIR$/app/views/task-new.coffee" />
-        <option value="$PROJECT_DIR$/app/views/templates/task-list.hbs" />
         <option value="$PROJECT_DIR$/app/views/templates/main-layaut.hbs" />
         <option value="$PROJECT_DIR$/app/views/templates/task-new.hbs" />
-        <option value="$PROJECT_DIR$/app/views/task-list-view.coffee" />
         <option value="$PROJECT_DIR$/app/views/task-new-view.coffee" />
         <option value="$PROJECT_DIR$/app/views/task-view.coffee" />
-        <option value="$PROJECT_DIR$/app/routes.coffee" />
         <option value="$PROJECT_DIR$/app/collections/task-collection.coffee" />
-        <option value="$PROJECT_DIR$/app/controllers/task-controller.coffee" />
         <option value="$PROJECT_DIR$/app/views/templates/task.hbs" />
+        <option value="$PROJECT_DIR$/app/routes.coffee" />
+        <option value="$PROJECT_DIR$/app/views/templates/task-list.hbs" />
+        <option value="$PROJECT_DIR$/app/views/task-list-view.coffee" />
+        <option value="$PROJECT_DIR$/app/controllers/task-controller.coffee" />
       </list>
     </option>
   </component>
@@ -357,19 +330,19 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2603834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2630458" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -392,9 +365,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2603834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -416,6 +389,34 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/controllers/task-controller.coffee">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/templates/task.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="40" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/task-new-view.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="17" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/task-view.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/task-controller.coffee">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="9" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1054">
           <folding />
         </state>
@@ -423,9 +424,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/task.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
-          <folding />
-        </state>
+        <state line="7" column="0" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
@@ -535,37 +534,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="7" selection-start="593" selection-end="593" vertical-scroll-proportion="0.24205914" vertical-offset="0" max-vertical-offset="913">
-          <folding />
-        </state>
+        <state line="13" column="7" selection-start="593" selection-end="593" vertical-scroll-proportion="0.24205914" vertical-offset="0" max-vertical-offset="913" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/base/view.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="246" selection-end="246" vertical-scroll-proportion="0.09299781" vertical-offset="0" max-vertical-offset="914">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="246" selection-end="246" vertical-scroll-proportion="0.09299781" vertical-offset="0" max-vertical-offset="914" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../chaplin-test-project/app/views/manager/manager-task-view.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
+        <state line="7" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="323" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../chaplin-test-project/app/views/manager/manager-new-view.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
+        <state line="7" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="323" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../chaplin-test-project/app/views/manager/manager-main-view.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="26" selection-start="396" selection-end="396" vertical-scroll-proportion="0.2045952" vertical-offset="0" max-vertical-offset="914">
-          <folding />
-        </state>
+        <state line="11" column="26" selection-start="396" selection-end="396" vertical-scroll-proportion="0.2045952" vertical-offset="0" max-vertical-offset="914" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layauts/main-layaut.coffee">
@@ -591,23 +580,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/templates/task-new.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="10" selection-start="513" selection-end="513" vertical-scroll-proportion="0.33515882" vertical-offset="0" max-vertical-offset="913">
-          <folding />
-        </state>
+        <state line="18" column="10" selection-start="513" selection-end="513" vertical-scroll-proportion="0.33515882" vertical-offset="0" max-vertical-offset="913" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/task.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="15" selection-start="385" selection-end="391" vertical-scroll-proportion="0.1487965" vertical-offset="0" max-vertical-offset="914">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/templates/task-list.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="45" selection-start="73" selection-end="73" vertical-scroll-proportion="0.03723987" vertical-offset="0" max-vertical-offset="913">
-          <folding />
-        </state>
+        <state line="8" column="15" selection-start="385" selection-end="391" vertical-scroll-proportion="0.1487965" vertical-offset="0" max-vertical-offset="914" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/app.js">
@@ -617,58 +595,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="32" selection-start="177" selection-end="177" vertical-scroll-proportion="0.07439825" vertical-offset="0" max-vertical-offset="914">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/task-list-view.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="414" selection-end="414" vertical-scroll-proportion="0.27899343" vertical-offset="0" max-vertical-offset="914">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/collections/task-collection.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="272" selection-end="273" vertical-scroll-proportion="0.24179432" vertical-offset="0" max-vertical-offset="914">
-          <folding />
-        </state>
+        <state line="13" column="13" selection-start="272" selection-end="273" vertical-scroll-proportion="0.24179432" vertical-offset="0" max-vertical-offset="914" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/backbone.localStorage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="15" selection-start="3844" selection-end="3851" vertical-scroll-proportion="0.7060703" vertical-offset="1428" max-vertical-offset="4437">
+        <state line="123" column="15" selection-start="3844" selection-end="3851" vertical-scroll-proportion="0.7060703" vertical-offset="1428" max-vertical-offset="4437" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/templates/task.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="40" selection-start="125" selection-end="125" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="24" selection-start="169" selection-end="169" vertical-scroll-proportion="0.07439825" vertical-offset="0" max-vertical-offset="914">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/task-new-view.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="17" selection-start="477" selection-end="477" vertical-scroll-proportion="-11.56" vertical-offset="0" max-vertical-offset="476">
+        <state line="11" column="23" selection-start="294" selection-end="294" vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="476">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/task-view.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="-5.44" vertical-offset="0" max-vertical-offset="272">
+        <state line="8" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.1487965" vertical-offset="0" max-vertical-offset="914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/templates/task-list.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/task-list-view.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="9" selection-start="613" selection-end="613" vertical-scroll-proportion="0.48358864" vertical-offset="0" max-vertical-offset="914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/site-view.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="939">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/task-controller.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="830" selection-end="830" vertical-scroll-proportion="-25.16" vertical-offset="0" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/templates/task.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="40" selection-start="125" selection-end="125" vertical-scroll-proportion="0.09309967" vertical-offset="0" max-vertical-offset="913">
+        <state line="22" column="20" selection-start="568" selection-end="568" vertical-scroll-proportion="0.4091904" vertical-offset="0" max-vertical-offset="914">
           <folding />
         </state>
       </provider>

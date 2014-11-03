@@ -3,17 +3,22 @@ TaskView = require '/views/task-view'
 
 module.exports = class TaskListView extends View
 	autoRender: false
+	container: '#main-container'
 	className: 'task-list-view'
 	template: require './templates/task-list'
 
 	initialize: () ->
-		@listenTo @collection, 'add', @createTaskView
-		@redner();
+#		@listenTo @collection, 'add', @renderTasksList
 
-	redner: ->
-		$('#main-container').html(@$el) # TODO: remove this shit..
+	rednerView: ->
+		$(@container).html(@$el) # TODO: refactor this shit..
 		@$el.html(@template())
-		@collection.fetch()
+		@renderTasksList()
+
+	renderTasksList: ->
+		_.map(@collection.models, (model) =>
+			@createTaskView(model)
+		)
 
 	createTaskView: (model) ->
 		@view = new TaskView {
