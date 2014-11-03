@@ -1,5 +1,6 @@
 taskCollection = require 'collections/task-collection'
 
+TaskShowView = require 'views/task-show-view'
 TaskListView = require 'views/task-list-view'
 TaskNewView = require 'views/task-new-view'
 
@@ -20,10 +21,18 @@ module.exports = class TaskController extends Chaplin.Controller
 	index: (params) ->
 		@TaskListView.rednerView()
 
+	show: (params) ->
+		new TaskShowView {
+			collection: @taskCollection,
+			region: 'main'
+			id: params.id
+		}
+
 	new: (params) ->
 		@view = new TaskNewView {
 			collection: @taskCollection,
 			region: 'main'
+			redirectView: @TaskListView
 		}
 
 	edit: (params) ->

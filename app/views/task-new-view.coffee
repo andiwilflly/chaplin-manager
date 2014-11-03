@@ -3,7 +3,7 @@ View = require '/views/base/view'
 
 module.exports = class TaskNewView extends View
 	autoRender: true
-	className: 'tasktask-view'
+	className: 'task-new-view'
 	template: require './templates/task-new'
 
 	initialize: ()->
@@ -17,7 +17,4 @@ module.exports = class TaskNewView extends View
 
 	saveModel: ->
 		@collection.localStorage.create(@model)
-#		TODO: make redirection to 'task#show'
-
-	test: ->
-		console.log 'test'
+		Chaplin.helpers.redirectTo('task#show', {id: @model.id})

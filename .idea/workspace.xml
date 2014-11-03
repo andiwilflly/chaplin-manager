@@ -26,7 +26,7 @@
       <file leaf-file-name="task-controller.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/task-controller.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="20" selection-start="568" selection-end="568" vertical-scroll-proportion="0.4091904" vertical-offset="0" max-vertical-offset="914">
+            <state line="26" column="26" selection-start="686" selection-end="686" vertical-scroll-proportion="0.48358864" vertical-offset="0" max-vertical-offset="914">
               <folding />
             </state>
           </provider>
@@ -57,14 +57,16 @@
         <option value="$PROJECT_DIR$/app/views/task-new.coffee" />
         <option value="$PROJECT_DIR$/app/views/templates/main-layaut.hbs" />
         <option value="$PROJECT_DIR$/app/views/templates/task-new.hbs" />
-        <option value="$PROJECT_DIR$/app/views/task-new-view.coffee" />
         <option value="$PROJECT_DIR$/app/views/task-view.coffee" />
         <option value="$PROJECT_DIR$/app/collections/task-collection.coffee" />
-        <option value="$PROJECT_DIR$/app/views/templates/task.hbs" />
-        <option value="$PROJECT_DIR$/app/routes.coffee" />
         <option value="$PROJECT_DIR$/app/views/templates/task-list.hbs" />
         <option value="$PROJECT_DIR$/app/views/task-list-view.coffee" />
+        <option value="$PROJECT_DIR$/app/views/task-new-view.coffee" />
         <option value="$PROJECT_DIR$/app/controllers/task-controller.coffee" />
+        <option value="$PROJECT_DIR$/app/views/templates/task-show.hbs" />
+        <option value="$PROJECT_DIR$/app/views/templates/task.hbs" />
+        <option value="$PROJECT_DIR$/app/routes.coffee" />
+        <option value="$PROJECT_DIR$/app/views/task-show-view.coffee" />
       </list>
     </option>
   </component>
@@ -286,7 +288,7 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="LayoutCode.rearrangeEntriesCoffeeScript" value="false" />
     <property name="LayoutCode.rearrangeEntriesHandlebars" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chaplin-test-project" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -549,12 +551,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../chaplin-test-project/app/views/manager/manager-new-view.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="323" />
+        <state line="7" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../chaplin-test-project/app/views/manager/manager-main-view.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="26" selection-start="396" selection-end="396" vertical-scroll-proportion="0.2045952" vertical-offset="0" max-vertical-offset="914" />
+        <state line="11" column="26" selection-start="396" selection-end="396" vertical-scroll-proportion="0.2045952" vertical-offset="0" max-vertical-offset="914">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layauts/main-layaut.coffee">
@@ -578,11 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/templates/task-new.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="10" selection-start="513" selection-end="513" vertical-scroll-proportion="0.33515882" vertical-offset="0" max-vertical-offset="913" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/task.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="15" selection-start="385" selection-end="391" vertical-scroll-proportion="0.1487965" vertical-offset="0" max-vertical-offset="914" />
@@ -602,61 +603,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/backbone.localStorage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="15" selection-start="3844" selection-end="3851" vertical-scroll-proportion="0.7060703" vertical-offset="1428" max-vertical-offset="4437" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/templates/task.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="40" selection-start="125" selection-end="125" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="169" selection-end="169" vertical-scroll-proportion="0.07439825" vertical-offset="0" max-vertical-offset="914">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/task-new-view.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="294" selection-end="294" vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/task-view.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.1487965" vertical-offset="0" max-vertical-offset="914">
+        <state line="123" column="15" selection-start="3844" selection-end="3851" vertical-scroll-proportion="0.7060703" vertical-offset="1428" max-vertical-offset="4437">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/templates/task-list.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="136">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/task-list-view.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="9" selection-start="613" selection-end="613" vertical-scroll-proportion="0.48358864" vertical-offset="0" max-vertical-offset="914">
+        <state line="2" column="31" selection-start="59" selection-end="59" vertical-scroll-proportion="0.03723987" vertical-offset="0" max-vertical-offset="913">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/site-view.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="939">
+        <state line="9" column="0" selection-start="257" selection-end="257" vertical-scroll-proportion="0.16739607" vertical-offset="0" max-vertical-offset="914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/task-new-view.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="0.18599562" vertical-offset="0" max-vertical-offset="914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/task-view.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="70" selection-start="248" selection-end="276" vertical-scroll-proportion="0.18599562" vertical-offset="0" max-vertical-offset="914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/templates/task-new.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="10" selection-start="191" selection-end="191" vertical-scroll-proportion="0.13033953" vertical-offset="0" max-vertical-offset="913">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/templates/task-show.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="48" selection-start="189" selection-end="189" vertical-scroll-proportion="0.16757941" vertical-offset="0" max-vertical-offset="913">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/templates/task.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/task-list-view.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="26" selection-start="431" selection-end="431" vertical-scroll-proportion="0.27899343" vertical-offset="0" max-vertical-offset="914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/task-show-view.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="0.2045952" vertical-offset="0" max-vertical-offset="914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="24" selection-start="202" selection-end="202" vertical-scroll-proportion="0.09299781" vertical-offset="0" max-vertical-offset="914">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/task-controller.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="20" selection-start="568" selection-end="568" vertical-scroll-proportion="0.4091904" vertical-offset="0" max-vertical-offset="914">
+        <state line="26" column="26" selection-start="686" selection-end="686" vertical-scroll-proportion="0.48358864" vertical-offset="0" max-vertical-offset="914">
           <folding />
         </state>
       </provider>
