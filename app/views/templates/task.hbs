@@ -1,7 +1,22 @@
 <li class="task {{status}}"  data-name="{{ name }}" data-status="{{ status }}">
-	<a href="{{ url "task#show" id}}"><b>{{name}}</b></a>
-	<i>[{{status}}]</i>
-	<p>desc: <i>{{description}}</i></p>
+	<b>{{name}}</b>
+	<p><i>[{{status}}]</i></p>
+	<div class="status-opt">
+		{{#equal status "new" }}
+			<a class="btn" href="{{ url "task#done" id }}">Done</a>
+			<a class="btn" href="{{ url "task#start" id }}">Start</a>
+		{{/equal}}
+		{{#equal status "inProgress" }}
+			<a class="btn" href="{{ url "task#done" id }}">Done</a>
+			<a class="btn" href="{{ url "task#tonew" id }}">Reset to new</a>
+		{{/equal}}
+		{{#equal status "done" }}
+			<a class="btn" href="{{ url "task#tonew" id }}">Reset to new</a>
+			<a class="btn" href="{{ url "task#resume" id }}">Resume</a>
+			<a class="btn" href="{{ url "task#finish" id }}">Finish</a>
+		{{/equal}}
+	</div>
+	<a class="btn" href="{{ url "task#show" id}}">Show</a>
 	<a class="btn" href="{{ url "task#edit" id}}">Edit</a>
 	<a class="btn" href="{{ url "task#destroy" id}}">Destroy</a>
 </li>

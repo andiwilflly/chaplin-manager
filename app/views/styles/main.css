@@ -3,7 +3,7 @@
 	color: #3b3b3b;
 	padding: 20px;
 	width: 600px;
-	margin: 100px auto;
+	margin: 10px auto;
 }
 
 a {
@@ -16,7 +16,7 @@ a:hover {
 }
 
 ul {
-	margin: 0;
+	margin: 10px 0 0 0;
 	padding: 0;
 }
 
@@ -35,6 +35,22 @@ ul {
 .add-new-btn {
 	padding: 10px 15px;
 	margin-top: 20px;
+}
+
+.status-opt {
+	padding: 10px;
+	border: 1px solid #686868;
+	margin: 10px 0;
+}
+
+.status-opt .btn {
+	padding: 5px 10px;
+	font-size: 12px;
+	background: #686868;
+	color: seashell;
+}
+.status-opt .btn:hover {
+	background: #3c3c3c;
 }
 
 /* Task */

@@ -21,7 +21,7 @@ module.exports = class TaskListView extends View
 		_.map(@collection.models, (model) =>
 			@createTaskView(model)
 		)
-		shuffle.initShuffle()
+#		shuffle.initShuffle()
 
 	createTaskView: (model) ->
 		@view = new TaskView {

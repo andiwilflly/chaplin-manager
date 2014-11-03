@@ -56,3 +56,31 @@ module.exports = class TaskController extends Chaplin.Controller
 		@taskCollection.clearStorage()
 #		TODO: need redirection
 		@TaskListView.rednerView()
+
+#	Manage tasks
+	done: (params) ->
+		model = @taskCollection.get(params.id)
+		model.set({status: "done"})
+		@taskCollection.localStorage.update(model)
+		@TaskListView.rednerView()
+
+	start: (params) ->
+		model = @taskCollection.get(params.id)
+		model.set({status: "inProgress"})
+		@taskCollection.localStorage.update(model)
+		@TaskListView.rednerView()
+
+	tonew: (params) ->
+		model = @taskCollection.get(params.id)
+		model.set({status: "new"})
+		@taskCollection.localStorage.update(model)
+		@TaskListView.rednerView()
+
+	resume: (params) ->
+		model = @taskCollection.get(params.id)
+		model.set({status: "inProgress"})
+		@taskCollection.localStorage.update(model)
+		@TaskListView.rednerView()
+
+	finish: (params) ->
+		console.log 'finish'

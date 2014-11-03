@@ -33,6 +33,5 @@ module.exports = initShuffle: ->
 					$el.data("status")
 
 			# Filter elements
-			console.log opts
 			$grid.shuffle "sort", opts
 

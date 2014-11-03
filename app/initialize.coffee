@@ -1,4 +1,5 @@
 routes = require './routes'
+extendHandlebars = require '/utils/hbs' # Extend Handlebars template object with custom methods
 
 # Execute handler on document ready event.
 jQuery ->
