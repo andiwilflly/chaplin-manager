@@ -11,7 +11,7 @@ module.exports = class TaskCollection extends Backbone.Collection
 	fetch: ->
 		modelsList = @localStorage.findAll()
 		_.map modelsList, (model) =>
-			@.add(model)
+			@.push(model)
 
 	clearStorage: () ->
 		@localStorage._clear()

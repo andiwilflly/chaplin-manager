@@ -1,12 +1,12 @@
-<form id="task-new-form" method="POST">
+<form id="task-update-form">
 	<label for="task-name">Task name</label>
 	<br />
-	<input id="task-name" type="text" name="name" />
+	<input id="task-name" type="text" name="name" value="{{ name }}" />
 	<br />
 	<br />
 	<label for="task-desc">Task name</label>
 	<br />
-	<textarea name="description" id="task-desc" cols="30" rows="10"></textarea>
+	<textarea name="description" id="task-desc" cols="30" rows="10">{{ description }}</textarea>
 	<br />
 	<br />
 	<label for="task-status">Task status</label>
@@ -18,5 +18,5 @@
 	</select>
 	<br />
 	<br />
-	<input type="submit" value="Create"/>
+	<input type="submit" value="Update"/>
 </form>

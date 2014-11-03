@@ -7,7 +7,7 @@ module.exports = class TaskNewView extends View
 	template: require './templates/task-new'
 
 	initialize: ()->
-		@delegate 'submit', '#new-user-form', @createModel
+		@delegate 'submit', '#task-new-form', @createModel
 
 	createModel: (e) ->
 		e.preventDefault()

@@ -1,8 +1,9 @@
 taskCollection = require 'collections/task-collection'
 
 TaskShowView = require 'views/task-show-view'
+TaskEditView = require  'views/task-edit-view'
 TaskListView = require 'views/task-list-view'
-TaskNewView = require 'views/task-new-view'
+TaskNewView = require  'views/task-new-view'
 
 module.exports = class TaskController extends Chaplin.Controller
 
@@ -36,6 +37,11 @@ module.exports = class TaskController extends Chaplin.Controller
 		}
 
 	edit: (params) ->
+		new TaskEditView {
+			collection: @taskCollection,
+			region: 'main'
+			id: params.id
+		}
 
 	destroy: (id) ->
 		@taskCollection.localStorage.destroy(id)
