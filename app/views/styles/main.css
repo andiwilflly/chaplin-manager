@@ -42,7 +42,8 @@ ul {
 	background: whitesmoke;
 	padding: 10px;
 	list-style: none;
-	margin: 10px 0;
+	width: 100%;
+	border: 1px solid gray;
 }
 .task p {
 	margin: 10px 0;

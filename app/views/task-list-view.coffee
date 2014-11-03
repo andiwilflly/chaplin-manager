@@ -1,3 +1,5 @@
+shuffle = require '/utils/shuffle'
+
 View = require '/views/base/view'
 TaskView = require '/views/task-view'
 
@@ -19,9 +21,11 @@ module.exports = class TaskListView extends View
 		_.map(@collection.models, (model) =>
 			@createTaskView(model)
 		)
+		shuffle.initShuffle()
 
 	createTaskView: (model) ->
 		@view = new TaskView {
 			parentView: @
 			model: model
 		}
+

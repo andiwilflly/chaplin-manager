@@ -30,3 +30,6 @@ bower_components/
 
 # Brunch output folder.
 public/
+
+# WebStorm.
+.idea/
