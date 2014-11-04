@@ -1,4 +1,4 @@
-<li class="task {{status}}"  data-name="{{ name }}" data-status="{{ status }}">
+<li id="{{id}}" class="task {{status}}"  data-name="{{ name }}" data-status="{{ status }}" draggable="true" ondragstart="drag(event)">
 	<b>{{name}}</b>
 	<p><i>[{{status}}]</i></p>
 	<div class="status-opt">

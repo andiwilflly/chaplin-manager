@@ -1,4 +1,5 @@
 #shuffle = require '/utils/shuffle'
+drag = require 'utils/drag' # Add drag HTML5 events
 
 View = require '/views/base/view'
 TaskView = require '/views/task-view'
@@ -10,6 +11,7 @@ module.exports = class TaskListView extends View
 	template: require './templates/task-list'
 
 	initialize: () ->
+		drag.initDrag(@)
 #		@listenTo @collection, 'add', @renderTasksList
 
 	rednerView: ->

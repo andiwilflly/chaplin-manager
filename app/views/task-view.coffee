@@ -8,4 +8,4 @@ module.exports = class TaskView extends View
 	initialize: ({ @parentView }) ->
 
 	render: ->
-		@parentView.$el.find('ul').append(@template(@model.attributes))
+		@parentView.$el.find('#' + @model.get('status')).append(@template(@model.attributes))

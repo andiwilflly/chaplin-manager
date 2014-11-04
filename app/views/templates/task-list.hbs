@@ -1,3 +1,10 @@
-<b>Task list:</b>
-<ul></ul>
 <a class="btn add-new-btn" href="{{url "task#new"}}">Add new task</a>
+
+<div class="task-lists">
+	<ul id="inProgress" ondrop="drop(event)" ondragover="allowDrop(event)">InProgress
+	</ul>
+	<ul id="new" ondrop="drop(event)" ondragover="allowDrop(event)">New
+	</ul>
+	<ul id="done" ondrop="drop(event)" ondragover="allowDrop(event)">Done
+	</ul>
+</div>

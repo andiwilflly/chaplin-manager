@@ -11,9 +11,7 @@ module.exports = class TaskCollection extends Backbone.Collection
 	initialize: ->
 
 	fetch: =>
-		modelsList = @localStorage.findAll()
-		console.log modelsList, @_groupBy(modelsList, 'status')
-
+		modelsList = _.sortBy @localStorage.findAll(), (el) -> el.name
 		_.map modelsList, (model) =>
 			@.push(model)
 
