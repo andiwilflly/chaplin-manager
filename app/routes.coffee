@@ -5,6 +5,8 @@ module.exports = (match) ->
 	match 'new', 	     'task#new'
 	match 'edit/:id',    'task#edit'
 	match 'destroy/:id', 'task#destroy'
+
+	#   Clear localStorage
 	match 'drop', 		 'task#drop'
 
 	#	Manage tasks
@@ -12,4 +14,3 @@ module.exports = (match) ->
 	match 'start/:id',   'task#start'
 	match 'tonew/:id',   'task#tonew'
 	match 'resume/:id',  'task#resume'
-	match 'finish/:id',  'task#finish'

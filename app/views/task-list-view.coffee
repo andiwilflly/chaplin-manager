@@ -1,4 +1,4 @@
-shuffle = require '/utils/shuffle'
+#shuffle = require '/utils/shuffle'
 
 View = require '/views/base/view'
 TaskView = require '/views/task-view'

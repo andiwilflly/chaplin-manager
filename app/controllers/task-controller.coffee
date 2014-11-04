@@ -48,39 +48,26 @@ module.exports = class TaskController extends Chaplin.Controller
 	destroy: (id) ->
 		@taskCollection.localStorage.destroy(id)
 		@taskCollection.remove(id)
-#		TODO: need redirection
 		@TaskListView.rednerView()
 
 #	Drop localStorage
 	drop: ->
 		@taskCollection.clearStorage()
-#		TODO: need redirection
 		@TaskListView.rednerView()
 
 #	Manage tasks
 	done: (params) ->
-		model = @taskCollection.get(params.id)
-		model.set({status: "done"})
-		@taskCollection.localStorage.update(model)
+		@taskCollection.updateModel(params.id, {status: "done"})
 		@TaskListView.rednerView()
 
 	start: (params) ->
-		model = @taskCollection.get(params.id)
-		model.set({status: "inProgress"})
-		@taskCollection.localStorage.update(model)
+		@taskCollection.updateModel(params.id, {status: "inProgress"})
 		@TaskListView.rednerView()
 
 	tonew: (params) ->
-		model = @taskCollection.get(params.id)
-		model.set({status: "new"})
-		@taskCollection.localStorage.update(model)
+		@taskCollection.updateModel(params.id, {status: "new"})
 		@TaskListView.rednerView()
 
 	resume: (params) ->
-		model = @taskCollection.get(params.id)
-		model.set({status: "inProgress"})
-		@taskCollection.localStorage.update(model)
+		@taskCollection.updateModel(params.id, {status: "inProgress"})
 		@TaskListView.rednerView()
-
-	finish: (params) ->
-		console.log 'finish'
