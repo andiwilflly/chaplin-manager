@@ -18,5 +18,6 @@ module.exports = class TaskShowView extends View
 		e.preventDefault()
 		serializedFormparams = Chaplin.utils.queryParams.parse($(e.currentTarget).serialize())
 		@model.set(serializedFormparams)
+		@model.set({modified: (new Date).toGMTString()})
 		@collection.localStorage.update(@model)
 		Chaplin.helpers.redirectTo('task#show', {id: @model.id})

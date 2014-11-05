@@ -1,4 +1,3 @@
-#shuffle = require '/utils/shuffle'
 drag = require 'utils/drag' # Add drag HTML5 events
 
 View = require '/views/base/view'
@@ -12,7 +11,7 @@ module.exports = class TaskListView extends View
 
 	initialize: () ->
 		drag.initDrag(@)
-#		@listenTo @collection, 'add', @renderTasksList
+#		@listenTo @collection, 'update', @op
 
 	rednerView: ->
 		$(@container).html(@$el) # TODO: refactor this shit..
@@ -23,11 +22,9 @@ module.exports = class TaskListView extends View
 		_.map(@collection.models, (model) =>
 			@createTaskView(model)
 		)
-#		shuffle.initShuffle()
 
 	createTaskView: (model) ->
 		@view = new TaskView {
 			parentView: @
 			model: model
 		}
-

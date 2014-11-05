@@ -1,16 +1,16 @@
 # All application routes that will be matched against URLs.
 module.exports = (match) ->
-	match '', 'task#index'
-	match 'show/:id', 	 'task#show'
-	match 'new', 	     'task#new'
-	match 'edit/:id',    'task#edit'
-	match 'destroy/:id', 'task#destroy'
+	match '', 			      'task#index'
+	match 'task/show/:id', 	  'task#show'
+	match 'task/new', 	      'task#new'
+	match 'task/edit/:id',    'task#edit'
+	match 'task/destroy/:id', 'task#destroy'
 
 	#   Clear localStorage
-	match 'drop', 		 'task#drop'
+	match 'task/drop', 		  'task#drop'
 
 	#	Manage tasks
-	match 'done/:id',    'task#done'
-	match 'start/:id',   'task#start'
-	match 'tonew/:id',   'task#tonew'
-	match 'resume/:id',  'task#resume'
+	match 'task/done/:id',    'task#done'
+	match 'task/start/:id',   'task#start'
+	match 'task/tonew/:id',   'task#tonew'
+	match 'task/resume/:id',  'task#resume'

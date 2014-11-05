@@ -18,7 +18,4 @@ module.exports = initDrag: (TaskListView) ->
 	window.removeTask = (e) ->
 		e.preventDefault()
 		model = TaskListView.collection.get(e.dataTransfer.getData("text"))
-		TaskListView.collection.localStorage.destroy(model)
-		console.log TaskListView.collection.localStorage.findAll()
-		TaskListView.collection.remove(model)
-		TaskListView.rednerView()
+		Chaplin.helpers.redirectTo('task#destroy', {id: model.id})

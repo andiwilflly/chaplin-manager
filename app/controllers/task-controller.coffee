@@ -1,5 +1,3 @@
-shuffle = require 'utils/shuffle'
-
 taskCollection = require 'collections/task-collection'
 
 TaskShowView = require 'views/task-show-view'

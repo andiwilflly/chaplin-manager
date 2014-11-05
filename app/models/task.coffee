@@ -7,4 +7,5 @@ module.exports = class Task extends Chaplin.Model
 		"name":  	 	   "task default title"
 		"description":     "task default description"
 		"status":     	   "new"
-		"modified":		   "01.01.2014"
+		"created":		   (new Date).toGMTString()
+		"modified":		   "not modified"

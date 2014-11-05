@@ -6,7 +6,7 @@ module.exports = class TaskNewView extends View
 	className: 'task-new-view'
 	template: require './templates/task-new'
 
-	initialize: ()->
+	initialize: () ->
 		@delegate 'submit', '#task-new-form', @createModel
 
 	createModel: (e) ->
@@ -17,4 +17,5 @@ module.exports = class TaskNewView extends View
 
 	saveModel: ->
 		@collection.localStorage.create(@model)
+		@collection.add(@model)
 		Chaplin.helpers.redirectTo('task#show', {id: @model.id})

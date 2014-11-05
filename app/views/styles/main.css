@@ -64,6 +64,8 @@ ul li:first-child {
 	list-style: none;
 	width: 100%;
 	border: 1px solid gray;
+	cursor: move;
+	overflow: hidden;
 }
 .task p {
 	margin: 10px 0;
@@ -83,12 +85,19 @@ ul li:first-child {
 	background: #ffc56a;
 }
 
+.modified {
+	color: gray;
+	float: right;
+	margin-top: 10px;
+	clear: both;
+}
+
 #delete-task-area {
 	height: 100vh;
-	position: absolute;
+	position: fixed;
 	width: calc(50vw - 309px);
-	top: 78px;
-	left: 0;
+	top: 0;
+	right: 0;
 	color: rgb(155, 155, 155);
 	line-height: 100vh;
 	text-align: center;

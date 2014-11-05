@@ -1,4 +1,4 @@
-<li id="{{id}}" class="task {{status}}"  data-name="{{ name }}" data-status="{{ status }}" draggable="true" ondragstart="drag(event)">
+<li id="{{id}}" class="task {{status}}"   draggable="true" ondragstart="drag(event)">
 	<b>{{name}}</b>
 	<p><i>[{{status}}]</i></p>
 	<div class="status-opt">
@@ -18,4 +18,5 @@
 	<a class="btn" href="{{ url "task#show" id}}">Show</a>
 	<a class="btn" href="{{ url "task#edit" id}}">Edit</a>
 	<a class="btn" href="{{ url "task#destroy" id}}">Destroy</a>
+	<i class="modified">{{ modified }}</i>
 </li>

@@ -10,16 +10,19 @@ module.exports = class TaskCollection extends Backbone.Collection
 
 	initialize: ->
 
-	fetch: =>
+	fetch: () =>
 		modelsList = _.sortBy @localStorage.findAll(), (el) -> el.name
 		_.map modelsList, (model) =>
 			@.push(model)
 
 	clearStorage: () ->
 		@localStorage._clear()
+		@models = []
 
 	updateModel: (id, params) ->
-		model = @get(id).set(params)
+		model = @get(id)
+					.set(params)
+					.set({modified: (new Date).toGMTString()})
 		@localStorage.update(model)
 
 	# Collection helper methods
