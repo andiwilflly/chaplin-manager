@@ -1,6 +1,8 @@
 # All application routes that will be matched against URLs.
 module.exports = (match) ->
-	match '', 			      'task#index'
+	match '', 			  	  'base#start'
+
+	match 'task', 			  'task#index'
 	match 'task/show/:id', 	  'task#show'
 	match 'task/new', 	      'task#new'
 	match 'task/edit/:id',    'task#edit'
@@ -14,3 +16,8 @@ module.exports = (match) ->
 	match 'task/start/:id',   'task#start'
 	match 'task/tonew/:id',   'task#tonew'
 	match 'task/resume/:id',  'task#resume'
+
+
+	# ========================
+	# News
+	match 'news',  'news#index'

@@ -22,17 +22,7 @@
     <favorites_list name="chaplin-test-project" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="routes.coffee" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/routes.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="20" selection-start="355" selection-end="355" vertical-scroll-proportion="0.2045952" vertical-offset="0" max-vertical-offset="914">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -76,13 +66,17 @@
         <option value="$PROJECT_DIR$/app/views/task-list-view.coffee" />
         <option value="$PROJECT_DIR$/app/views/task-edit-view.coffee" />
         <option value="$PROJECT_DIR$/app/models/task.coffee" />
-        <option value="$PROJECT_DIR$/app/views/task-view.coffee" />
         <option value="$PROJECT_DIR$/app/views/styles/main.css" />
         <option value="$PROJECT_DIR$/app/views/templates/task.hbs" />
         <option value="$PROJECT_DIR$/app/views/templates/task-show.hbs" />
+        <option value="$PROJECT_DIR$/app/collections/news-collection.coffee" />
+        <option value="$PROJECT_DIR$/app/controllers/base/base-controller.coffee" />
+        <option value="$PROJECT_DIR$/app/routes.coffee" />
+        <option value="$PROJECT_DIR$/app/controllers/base-controller.coffee" />
+        <option value="$PROJECT_DIR$/app/controllers/news-controller.coffee" />
         <option value="$PROJECT_DIR$/app/collections/task-collection.coffee" />
         <option value="$PROJECT_DIR$/app/controllers/task-controller.coffee" />
-        <option value="$PROJECT_DIR$/app/routes.coffee" />
+        <option value="$PROJECT_DIR$/app/views/task-view.coffee" />
       </list>
     </option>
   </component>
@@ -138,6 +132,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -170,9 +165,102 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chaplin-test-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chaplin-test-manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chaplin-test-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chaplin-test-manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chaplin-test-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chaplin-test-manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chaplin-test-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chaplin-test-manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chaplin-test-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chaplin-test-manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,11 +272,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Sites\chaplin-test-manager\app\controllers" />
       <recent name="C:\Sites\chaplin-test-manager\public\javascripts" />
       <recent name="C:\Sites\chaplin-test-manager\bower_components\backbone" />
       <recent name="C:\Sites\chaplin-test-manager\app\views\templates" />
       <recent name="C:\Sites\chaplin-test-manager\app\views\layauts" />
-      <recent name="C:\Sites\chaplin-test-manager\app\views\base" />
     </key>
   </component>
   <component name="RunManager">
@@ -230,7 +318,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29339722" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.299787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -285,16 +373,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="41" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="374" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/task-controller.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="36" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="833" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/stylus-brunch/node_modules/stylus/node_modules/source-map/build/mini-require.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="151" column="4" selection-start="4203" selection-end="4203" vertical-scroll-proportion="0.87326944" vertical-offset="1747" max-vertical-offset="2686" />
@@ -460,11 +538,6 @@
         <state line="6" column="20" selection-start="133" selection-end="133" vertical-scroll-proportion="0.111597374" vertical-offset="0" max-vertical-offset="914" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/base/view.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="246" selection-end="246" vertical-scroll-proportion="0.09299781" vertical-offset="0" max-vertical-offset="914" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/task-show-view.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="17" selection-start="275" selection-end="275" vertical-scroll-proportion="0.18599562" vertical-offset="0" max-vertical-offset="914" />
@@ -480,19 +553,9 @@
         <state line="12" column="24" selection-start="334" selection-end="334" vertical-scroll-proportion="0.22319475" vertical-offset="0" max-vertical-offset="914" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/task-view.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="36" selection-start="198" selection-end="198" vertical-scroll-proportion="0.13019694" vertical-offset="0" max-vertical-offset="914" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="491" column="25" selection-start="14725" selection-end="14725" vertical-scroll-proportion="0.33261338" vertical-offset="8039" max-vertical-offset="15827" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/task.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="53" selection-start="381" selection-end="381" vertical-scroll-proportion="0.13019694" vertical-offset="0" max-vertical-offset="914" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/task-edit-view.coffee">
@@ -520,19 +583,65 @@
         <state line="20" column="64" selection-start="549" selection-end="605" vertical-scroll-proportion="0.37199125" vertical-offset="0" max-vertical-offset="914" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="31" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/news-controller.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="11" selection-start="280" selection-end="280" vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/base-controller.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="33" selection-start="245" selection-end="245" vertical-scroll-proportion="0.16739607" vertical-offset="0" max-vertical-offset="914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/collections/news-collection.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="79" selection-start="144" selection-end="144" vertical-scroll-proportion="-1.36" vertical-offset="0" max-vertical-offset="136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/task.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="47" selection-start="333" selection-end="333" vertical-scroll-proportion="0.111597374" vertical-offset="0" max-vertical-offset="914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/base/view.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="246" selection-end="246" vertical-scroll-proportion="0.09299781" vertical-offset="0" max-vertical-offset="914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/task-view.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="30" selection-start="125" selection-end="125" vertical-scroll-proportion="0.07439825" vertical-offset="0" max-vertical-offset="914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/collections/task-collection.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="544" selection-end="544" vertical-scroll-proportion="0.48358864" vertical-offset="0" max-vertical-offset="914" />
+        <state line="9" column="0" selection-start="191" selection-end="191" vertical-scroll-proportion="0.16739607" vertical-offset="0" max-vertical-offset="914">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/task-controller.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="20" selection-start="774" selection-end="774" vertical-scroll-proportion="0.39496717" vertical-offset="166" max-vertical-offset="1292" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="355" selection-end="355" vertical-scroll-proportion="0.2045952" vertical-offset="0" max-vertical-offset="914">
+        <state line="13" column="19" selection-start="421" selection-end="421" vertical-scroll-proportion="0.24179432" vertical-offset="0" max-vertical-offset="1326">
           <folding />
         </state>
       </provider>

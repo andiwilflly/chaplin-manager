@@ -1,13 +1,15 @@
+baseController = require 'controllers/base-controller'
+
 taskCollection = require 'collections/task-collection'
 
 TaskShowView = require 'views/task-show-view'
-TaskEditView = require  'views/task-edit-view'
+TaskEditView = require 'views/task-edit-view'
 TaskListView = require 'views/task-list-view'
 TaskNewView = require  'views/task-new-view'
 
-module.exports = class TaskController extends Chaplin.Controller
+module.exports = class TaskController extends baseController
 
-	layaut: require 'views/layauts/main-layaut'
+#	layaut: require 'views/layauts/main-layaut'
 
 	beforeAction: ->
 		# Site layaut declares “main” region.
