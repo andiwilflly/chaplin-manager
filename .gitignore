@@ -29,7 +29,7 @@ tmp/
 bower_components/
 
 # Brunch output folder.
-public/
+# public/
 
 # WebStorm.
 .idea/
